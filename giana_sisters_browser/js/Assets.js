@@ -5,7 +5,7 @@ export default class Assets {
     }
 
     async loadAll() {
-        this.images['giana'] = await this.loadImage('giana', 'assets/giana.png');
+        this.images['giana'] = await this.loadImage('giana', 'assets/giana.jpg');
         this.isLoaded = true;
     }
 
